@@ -1,3 +1,4 @@
+import math
 num = input('Digite um número: ')
-numint =
-print('O número {} tem a parte inteira {}'.format(num, ))
+print(math.floor(num))
+print('O número {} tem a parte inteira {}'.format(num, math.floor(num)))
