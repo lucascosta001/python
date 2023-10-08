@@ -1,5 +1,5 @@
-from math import sqrt
-ca = int(input('Qual a Medida do Cateto Adjacente: '))
-co = int(input('Qual a Medida do Cateto Oposto: '))
-h = sqrt((ca * ca) + (co * co))
-print('A Hipotenusa do triângulo retâgulo, tendo o Cateto Adjcente {} e o Cateto Oposto {} é {}'.format(ca ,co, h))
+from math import hypot
+co = float(input('Comprimento do Cateto Oposto: '))
+ca = float(input('Comprimento do Cateto Adjacente: '))
+h = hypot(co, ca)
+print('A Hipotenusa vai medir {:.2f}'.format(h))
