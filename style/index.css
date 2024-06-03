@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    display: flex;
+    height: 570px;
+    background-color: rgb(110, 151, 141);
+}
+
+#header{
+    width: 25vw;
+}
+
+#content{
+    box-shadow: -4px 0px 1px rgba(0, 0, 0, 0.397);
+    width: 75vw;
+}
