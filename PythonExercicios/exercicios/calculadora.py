@@ -1,6 +1,6 @@
-n1 = float(input('Um valor: '))
-n2 = float(input('Outro valor: '))
-n3 = input('tipo de operação ex.: * ;/ ;- ;+:')
+n1 = float(input('Digite um valor númerico: '))
+n2 = float(input('Digite outro valor númerico: '))
+n3 = input('Qual o tipo de operação, ex.: * ;/ ;- ;+:')
 
 if n3 == '+':
     r = n1+n2
